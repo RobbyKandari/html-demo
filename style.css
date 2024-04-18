@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+html, body{
+    height: 100%;
+    width: 100%;
+   /* overflow: hidden; */
+   animation: none;
+}
+
+/* nav statr */
+.nav {
+    display: flex;
+    justify-content: end;
+    gap: 4vw;
+    padding: 1vw 2vw;
+    cursor:grabbing;
+    margin: 1vw 1.5vw;
+   height: 3.9vh;
+   box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+   overflow: hidden;
+   /* background-color: aquamarine; */
+
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.nav button{
+    font-size: medium;
+    color: rgb(239, 244, 244);
+    background-color:teal;
+}
+/* nav done */
+.parent {
+    display: flex;
+    position: relative;
+    align-items: flex-end;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(1, 1, 2, 0.174);
+    padding: 1.5vw;
+
+}
+.right{
+    height: 70vh;
+    width: 50vw;
+    /* background-color: rgb(235, 235, 235); */
+
+}
+
+.left img{
+   width: 50vw;
+   position: relative;
+}
+.left{
+    height: 80vh;
+    width: 50vw;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    /* background-color: rgba(237, 228, 228, 0.743); */
+}
+.right h1 {
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    justify-content: space-around;
+    text-align: right;
+    
+}
+.right p{
+    position: relative;
+    text-align: right;
+    font-weight: bold;
+    padding: 1vw 3vw;
+    margin-top: 10vh;
+}
+.right span{
+    color: lightseagreen;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-size: 50px;
+}
+
+.left h1 {
+    display: flex;
+    justify-items: start;
+    margin-bottom: 10vh;
+}
+.left span{
+    color: #88E3F6;
+}
+.page1 {
+    /* background-color: aqua; */
+    display: flex;
+    height: 70vh;
+    cursor:grabbing;
+    width: 100vw;
+    gap: 20px;
+    padding: 1.5vw;
+    border-bottom: 2px solid rgba(1, 1, 2, 0.174);
+}
+
+.first {
+    margin-top: 10px;
+    width: 30vw;
+    /* background-color: blueviolet; */
+    height: 60vh;
+    margin-left: 20px;
+    border-bottom: 2px solid rgba(1, 1, 2, 0.174);
+    
+}
+.first h3 {
+    color: #025a6ce2;
+    font-size: x-large;
+    font-weight: bolder;
+    font-size: ;
+}
+.first p{
+    font-weight: bold;
+    padding-top: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.first img {
+    width: 15vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.secound img {
+    width: 15vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.secound p{
+    font-weight: bold;
+    padding-top: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.secound {
+    width: 30vw;
+    margin-top: 10px;
+    /* background-color: rgb(0, 0, 0); */
+    height: 60vh;
+    border-bottom: 2px solid rgba(1, 1, 2, 0.174);
+    
+}
+.third img {
+    width: 15vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.third p{
+    font-weight: bold;
+    padding-top: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.third {
+    margin-top: 10px;
+    width: 30vw;
+    /* background-color: rgb(127, 255, 8); */
+    height: 60vh;
+    border-bottom: 2px solid rgba(1, 1, 2, 0.174);
+    
+}
+   .part2{
+    width: 100vw;
+    height: 50vh;
+    /* background-color: aqua; */
+    display: flex;
+    border-bottom: 4px solid rgba(1, 1, 2, 0.174);
+    border: 10px solid rgb(232, 222, 222);
+   }
+   .cont1{
+    width: 50vw;
+    height: 50vh;
+    background-color: rgba(248, 248, 255, 0.761);
+    justify-content: center;
+   
+   }
+   .cont1 h2{
+    justify-content: center;
+    color: teal;
+    font-size: 30px;
+    margin: 2vw 3vw;
+    text-align: end;
+   }
+   .cont1 p{
+    font-size: large;
+    font-weight: 800;
+    color: black;
+    align-items: center;
+    margin: 1vw 2vw;
+    align-items: center;
+    text-align:center;
+   }
+   .cont2{
+    width: 50vw;
+    height: 50vh;
+    background-color: rgba(248, 248, 255, 0.617);
+   }
+   .cont2 img{
+    height: 50%;
+    animation: normal;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3vw;
+
+    width: 50%;
+   }
+   .cont2 h3{
+    margin-top: 9vw;
+    text-align: end;
+    margin-right: 70px;
+   }
+   footer{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: orangered;
+    width: 100vw;
+    height: 20vh;
+    padding-top: 2vw;
+   }
+   footer p{
+    font-weight: 800;
+    font-size: large;
+   }
+   footer span{
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+   }
